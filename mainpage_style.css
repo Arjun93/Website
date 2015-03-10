@@ -1,0 +1,48 @@
+/*changing the entire body color*/
+body{
+	background-color: #FFD1A0;
+}
+
+/*the default color of navbar is changed to red*/
+.navbar-default {
+    background-color: #C30A05;
+    margin-bottom: 0px;
+}
+
+/*changes the color of the word arjun santhanam to white*/
+.navbar-default .navbar-header > a{
+	color:  #ffffff;
+}
+
+/*the color of <li> and <a> elements are changed to white*/
+.navbar-default .nav > li > a {
+    color:  #ffffff;
+}
+
+/*upon hovering <a> and <li> elements, the background-color and color is changed.*/
+.navbar-default .nav > li > a:hover {
+    float: none;
+    color: #ffff00;
+    background-color: #A70A05;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 1.99);
+}
+
+/*upon hovering <a> and <li> elements in the active state, the background-color and color is changed*/ 
+.navbar-default .nav > .active > a, 
+.navbar-default .nav > .active > a:hover,
+.navbar-default .nav > .active > a:focus
+ {
+    float: none;
+    color: #8A0808;
+    background-color: #FE9A2E;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 1.99);
+}
+
+/*space within which all elements must fit*/
+.jumbotron-style{
+	margin-top: 80px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 500px;
+	background: floralwhite;
+}
