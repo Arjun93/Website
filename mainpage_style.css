@@ -2,18 +2,18 @@
 body {
 	background-color: #FFD1A0;
 }
-
+/*header style for each section*/
 .h1-style {
     text-align: center;
     color: #8A0808 !important;
     margin-bottom: 5px !important;
 }
-
+/*used for the second word in the header*/
 .header-italics {
     font-style: normal;
     color: #FE9A2E;
 }
-
+/*style for the tagline present below header*/
 .tagline {
     text-align: center;
     font-family: 'Brush Script MT', cursive;    
@@ -23,7 +23,7 @@ body {
     font-variant: normal;
     font-weight: 500;
 }
-
+/*underlining the header*/
 .header-underline-style {
     width: 75px;
     background-color: #FE9A2E;
