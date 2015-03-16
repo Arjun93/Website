@@ -5,34 +5,128 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="mainpage_style.css">
+  <link rel="stylesheet" href="section-one-about-me.css"> 
+  <link rel="stylesheet" href="section-two-education.css">
+  <link rel="stylesheet" href="social-buttons.css"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
+<!-- Title bar at the top of the webpage -->
 <nav class="navbar navbar-inverse navbar-fixed-top navbar-default nav-color">
   <div class="container-fluid">
+    <!-- Name in the title bar -->
     <div class="navbar-header">
       <a class="navbar-brand" href="#"><b>ARJUN SANTHANAM</b></a>
     </div>
+    <!-- Contents in the title bar -->
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About me</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Awards</a></li>
-        <li><a href="#">Contact me</a></li>
+        <li class="active"><a href="#"><b>About me</b></a></li>
+        <li><a href="#"><b>Education</b></a></li>
+        <li><a href="#"><b>Projects</b></a></li>
+        <li><a href="#"><b>Awards</b></a></li>
+        <li><a href="#"><b>Contact me</b></a></li>
       </ul>
     </div>
   </div>
 </nav>
 
+<!--Start of About me section -->
 <div class="section-style">
-  <h1 class="h1-style"><b>ABOUT<i class="header-italics"> ME</i></b></h1>      
+  
+  <!-- Heading, tagline, underline -->
+  <h1 class="h1-style elegantshadow section-name margin-control"><b>ABOUT<i class="header-italics"> ME</i></b></h1>      
   <p class="tagline"><i class="tagline-italics">Developer, Leader</i></p>
-  <div class="header-underline-style"></div>      
+  <div class="header-underline-style"></div> 
+  
+  <!-- Region to the left of image -->
+  <div class="imageleft-div" >
+    <div class="imageleft-innerdiv">
+      <p class="cursive-style">"Innovate, Upgrade and Refine" are three magical words that prove "Change is always a constant". Creating cost effective, reliable and user-friendly solutions for real-time problems have always helped humanity across the globe. Creating such deliverables has always been my dream!</p>
+    </div>
+    <div class="underline-style-long-1" style="margin-top: 330px; margin-left: 125px;"></div> 
+    <div id="buttongroup-container" style="margin-top: 350px; margin-left: 82px; position: absolute;">
+      <button class="btn btn-linkedin" style="margin-left: 16px"><i class="fa fa-linkedin"></i>| Connect with LinkedIn</button><br><br>
+      <button class="btn btn-facebook" style="margin-left: 12px"><i class="fa fa-facebook"></i>| Connect with Facebook</button><br><br>
+      <button class="btn btn-google-plus" style="margin-left: 5px"><i class="fa fa-google-plus"></i>| Connect with Google Plus</button><br>
+    </div>
+  </div>
+
+  <!-- The image region where shadow is added using CSS-->
+  <div class="image-div" ><img src="arjun.jpg" alt="Arjun's photo" class="arjun-image"></div>
+
+  <!-- Region to the right of image -->
+  <div class="imageright-div">
+    <div class="name-degree">
+      <b class="h1-style myname">ARJUN SANTHANAM</b>
+      <p class="designation"><b>MSIT-SE Graduate Student</b></p>
+      <p class="designation university"><b>Carnegie Mellon University</b></p>
+    </div>
+  </div>  
+
 </div>
 
+<!--Start of Education section -->
+<div class="section-style">
+  <!-- Heading, tagline, underline -->
+  <h1 class="h1-style elegantshadow section-name margin-control"><b>MY<i class="header-italics"> EDUCATION</i></b></h1>      
+  <p class="tagline"><i class="tagline-italics">blahblahblah</i></p>
+  <div class="header-underline-style"></div>
+   
+    <div class="undergraduate-div">
+      <div style="padding-left: 215px; position:absolute">
+        <img src="anna-univ.png" alt="Anna university photo" class="logo">
+      </div>
+      <!-- <div style="position:absolute; margin-top: 160px; margin-left: 170px; font-size:28px">
+        <b><u style="color:#8A0808">ANNA UNIVERSITY</u></b>
+      </div> -->
+      <div>
+        <img src="Scroll-Large.png" alt="Undergraduation courses taken" class="oldpaper-style">
+      </div>
+    </div>
+
+    <div class="postgraduate-div"> 
+      <div style="padding-left: 215px; position:absolute">
+        <div id="circle"><img src="CMU-seal.svg" alt="Carnegie Mellon University photo" class="logo"> </div>       
+        
+      </div>
+      <!-- <div style="position:absolute; margin-top: 160px; margin-left: 78px; font-size:28px">
+        <b><u style="color:#8A0808">CARNEGIE MELLON UNIVERSITY</u></b>
+      </div> -->
+      <div>
+        <img src="Scroll-Large-Reverse.png" alt="Undergraduation courses taken" class="oldpaper-style">
+      </div>
+    </div>  
+</div>
+
+
+
+<!--Start of Projects section -->
+<div class="section-style">
+  <!-- Heading, tagline, underline -->
+  <h1 class="h1-style elegantshadow section-name margin-control"><b>MY<i class="header-italics"> PROJECTS</i></b></h1>      
+  <p class="tagline"><i class="tagline-italics">blahblahblah</i></p>
+  <div class="header-underline-style"></div> 
+</div>
+
+<!--Start of Awards section -->
+<div class="section-style">
+  <!-- Heading, tagline, underline -->
+  <h1 class="h1-style elegantshadow section-name margin-control"><b>MY<i class="header-italics"> AWARDS</i></b></h1>      
+  <p class="tagline"><i class="tagline-italics">blahblahblah</i></p>
+  <div class="header-underline-style"></div> 
+</div>
+
+<!--Start of Contacts section -->
+<div class="section-style">
+  <!-- Heading, tagline, underline -->
+  <h1 class="h1-style elegantshadow section-name margin-control"><b>CONTACT<i class="header-italics"> DETAILS</i></b></h1>      
+  <p class="tagline"><i class="tagline-italics">blahblahblah</i></p>
+  <div class="header-underline-style"></div> 
+</div>
 </body>
 </html>

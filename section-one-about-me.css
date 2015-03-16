@@ -1,0 +1,100 @@
+.imageleft-div {
+    display: inline-block;
+    width: 397px;
+    height: 500px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.image-div {
+    display: inline-block;
+    width: 397px;
+    height: 500px; 
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+/*arjun's image*/
+.arjun-image {
+    position: absolute;
+    width: 390px;
+    height: 494px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.imageleft-innerdiv { 
+
+    position: absolute;
+    width: 370px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: justify;
+    margin-left: 20px
+}
+
+.cursive-style {
+    font-family: 'Brush Script MT', cursive;    
+    color: #8A0808 !important;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+
+.underline-style-long-1 {    
+    width: 125px;
+    background-color: #FE9A2E;
+    height: 3px;
+    position: absolute;
+}
+
+.imageright-div {
+    display: inline-block;
+    width: 377px;
+    height: 500px; 
+    background-color: #888888;
+    margin-top: 70px;
+    margin-left: 18px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.name-degree {
+    position: absolute;
+    margin-left: 29px;
+    width: 320px;
+    height: 152px;
+    background-color: #FE9A2E;
+    border-radius: 15px;
+}
+
+.myname {
+    font-size: 28px; 
+    position: absolute; 
+    margin-top: 20px; 
+    padding-left: 16px; 
+    padding-top: 7px;
+}
+
+.designation {
+    margin-top: 20px;
+    padding-top: 50px; 
+    padding-left: 32px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #8A0808;
+}
+
+.university {    
+    font-size: 17px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
