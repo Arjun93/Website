@@ -6,14 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="mainpage_style.css">
-  <link rel="stylesheet" href="section-one-about-me.css"> 
-  <link rel="stylesheet" href="section-two-education.css">
-  <link rel="stylesheet" href="social-buttons.css"> 
+  <link rel="stylesheet" href="css/mainpage_style.css">
+  <link rel="stylesheet" href="css/projectpage_style.css">
+  <link rel="stylesheet" href="css/section-one-about-me.css"> 
+  <link rel="stylesheet" href="css/section-two-education.css">
+  <link rel="stylesheet" href="css/section-three-project.css">
+  <link rel="stylesheet" href="css/social-buttons.css"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="body1">
 
 <!-- Title bar at the top of the webpage -->
 <nav class="navbar navbar-inverse navbar-fixed-top navbar-default nav-color">
@@ -57,7 +59,7 @@
   </div>
 
   <!-- The image region where shadow is added using CSS-->
-  <div class="image-div" ><img src="arjun.jpg" alt="Arjun's photo" class="arjun-image"></div>
+  <div class="image-div" ><img src="images/arjun.jpg" alt="Arjun's photo" class="arjun-image"></div>
 
   <!-- Region to the right of image -->
   <div class="imageright-div">
@@ -79,26 +81,26 @@
    
     <div class="undergraduate-div">
       <div style="padding-left: 215px; position:absolute">
-        <img src="anna-univ.png" alt="Anna university photo" class="logo">
+        <img src="images/anna-univ.png" alt="Anna university photo" class="logo">
       </div>
       <!-- <div style="position:absolute; margin-top: 160px; margin-left: 170px; font-size:28px">
         <b><u style="color:#8A0808">ANNA UNIVERSITY</u></b>
       </div> -->
       <div>
-        <img src="Scroll-Large.png" alt="Undergraduation courses taken" class="oldpaper-style">
+        <img src="images/Scroll-Large.png" alt="Undergraduation courses taken" class="oldpaper-style">
       </div>
     </div>
 
     <div class="postgraduate-div"> 
       <div style="padding-left: 215px; position:absolute">
-        <div id="circle"><img src="CMU-seal.svg" alt="Carnegie Mellon University photo" class="logo"> </div>       
+        <div id="circle"><img src="images/CMU-seal.svg" alt="Carnegie Mellon University photo" class="logo"> </div>       
         
       </div>
       <!-- <div style="position:absolute; margin-top: 160px; margin-left: 78px; font-size:28px">
         <b><u style="color:#8A0808">CARNEGIE MELLON UNIVERSITY</u></b>
       </div> -->
       <div>
-        <img src="Scroll-Large-Reverse.png" alt="Undergraduation courses taken" class="oldpaper-style">
+        <img src="images/Scroll-Large-Reverse.png" alt="Undergraduation courses taken" class="oldpaper-style">
       </div>
     </div>  
 </div>
@@ -110,7 +112,115 @@
   <!-- Heading, tagline, underline -->
   <h1 class="h1-style elegantshadow section-name margin-control"><b>MY<i class="header-italics"> PROJECTS</i></b></h1>      
   <p class="tagline"><i class="tagline-italics">blahblahblah</i></p>
-  <div class="header-underline-style"></div> 
+  <div class="header-underline-style"></div>
+
+  <div class="row" style="padding-top:20px">
+      <div class="col-md-3" style="margin-left: 80px;">
+        <img src="images/zoe-icon.jpg" alt="Zoe icon" class="project-icon">
+        <div id="container">
+          <div class="parent1">
+            <div class="parent2">
+              <div class="parent3">
+                <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px;">Rover Commander Tool for NASA</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="col-md-3" style="margin-left: 80px;">
+        <img src="images/zoe-icon.jpg" alt="Zoe icon" class="project-icon">
+        <div id="container">
+          <div class="parent1">
+            <div class="parent2">
+              <div class="parent3">
+                <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px;">Next project in CMU</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="col-md-3" style="margin-left: 80px;">
+        <img src="images/smartstick-icon.jpg" alt="SmartStick icon" class="project-icon">
+        <div id="container">
+          <div class="parent1">
+            <div class="parent2">
+              <div class="parent3">
+                <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px; ">Smart Stick for Visually Impaired</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+  </div>
+
+  <div class="row" style="padding-top:60px">
+      <div class="col-md-3" style="margin-left: 80px;">
+        <img src="images/musiclounge-icon.jpg" alt="MusicLounge icon" class="project-icon">
+        <div id="container">
+          <div class="parent1">
+            <div class="parent2">
+              <div class="parent3">
+                <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px;">Music Lounge</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="col-md-3" style="margin-left: 80px;">
+        <img src="images/pianomaestro-icon.jpg" alt="PianoMaestro icon" class="project-icon">
+        <div id="container">
+          <div class="parent1">
+            <div class="parent2">
+              <div class="parent3"> 
+                <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px; ">Piano Maestro</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="col-md-3" style="margin-left: 80px;">
+        <img src="images/tablamaestro-icon.jpg" alt="TablaMaestro icon" class="project-icon">
+        <div id="container">
+          <div class="parent1">
+            <div class="parent2">
+              <div class="parent3">
+                <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px;">Tabla Maestro</span>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+  </div>
+
+  <div class="row" style="padding-top:60px">
+    <div class="col-md-3" style="margin-left: 80px;">
+      
+    </div>
+
+    <div class="col-md-3" style="margin-left: 80px;">
+      <img src="images/miniproject-icon.jpg" alt="MiniProject icon" class="project-icon">
+      <div id="container">
+        <div class="parent1">
+          <div class="parent2">
+            <div class="parent3">
+              <span style="color: #ffffff; font-size: 24px; display: block; padding: 10px 0 0 20px;">Mini Projects</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <div class="col-md-3" style="margin-left: 80px;">
+      
+    </div>
+
+
+  </div>
+
 </div>
 
 <!--Start of Awards section -->

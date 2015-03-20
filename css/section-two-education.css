@@ -1,0 +1,43 @@
+.undergraduate-div {
+	display: inline-block;
+    width: 597px;
+    height: 500px; 
+    margin-left: 30px;
+    margin-right: 10px;
+    border-top-left-radius:2em;
+    border-top-right-radius:2em;
+}
+
+.postgraduate-div {
+	display: inline-block;
+    width: 597px;
+    height: 500px; 
+    margin-top: 40px;
+    margin-left: 18px;
+    margin-right: 10px;
+    border-top-left-radius:2em;
+    border-top-right-radius:2em;
+}
+
+.logo {
+    position: absolute;
+    width:175px;
+    height: 175px;
+}
+
+.oldpaper-style {
+    margin-top: 186px;
+    height: 316px;
+    width: 598px;
+    /*opacity: 0.35;*/
+}
+
+#circle {
+    width: 175px;
+    height: 175px;
+    background: white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    z-index: -1;
+}
